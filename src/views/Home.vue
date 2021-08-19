@@ -1,15 +1,15 @@
 <template>
-  <hello-world />
+  <ItemCard />
 </template>
 
 <script>
-  import HelloWorld from '../components/HelloWorld'
+import ItemCard from "../components/ItemCard.vue";
 
-  export default {
-    name: 'Home',
+export default {
+  name: "Home",
 
-    components: {
-      HelloWorld,
-    },
-  }
+  components: {
+    ItemCard,
+  },
+};
 </script>
