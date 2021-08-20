@@ -1,4 +1,5 @@
 <template>
+  <!-- 자식 -->
   <router-link
     :to="{ name: 'Detail', params: { number: number } }"
     class="link"

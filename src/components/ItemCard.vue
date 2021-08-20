@@ -1,4 +1,5 @@
 <template>
+  <!-- 부모 -->
   <div class="cover">
     <div class="item" v-for="n in 10" :key="n">
       <CardComponent :number="n" />
