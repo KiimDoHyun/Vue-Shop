@@ -13,6 +13,22 @@ export default {
       default: 0,
     },
   },
+
+  beforeCreate() {
+    console.log("beforeCreate");
+  },
+
+  created() {
+    console.log("Created");
+  },
+
+  beforeMount() {
+    console.log(2);
+  },
+
+  mounted() {
+    console.log(3);
+  },
 };
 </script>
 
